@@ -15,10 +15,14 @@
 <body>
 
     <form action="action1.php" method="post" enctype="multipart/form-data">
+
         First Name: <input type="text" name="fname" required><br>
-        Last Name: <input type="text" name="lname" required><br>
-        Photo: <input type="file" name="image" required><br>
-        <input type="submit" value="Submit">
+        
+        Last Name:  <input type="text" name="lname" required><br>
+        
+        Photo:      <input type="file" name="image" required><br>
+                   
+                    <input type="submit" value="Submit">
     </form>
 
 </body>
